@@ -92,7 +92,7 @@ function gameOver(status){
   if (status==='win') {
     startButton.innerHTML = 'Game over! Veggie time~';
   } else{
-    startButton.innerHTML="You win! Enjoy pizza, cutie pie";
+    startButton.innerHTML="You win! Enjoy pizza*^^*";
   }
   currentlyPlaying=false;
 }
