@@ -4,12 +4,12 @@ body {
 }
 .start-row{
   margin: auto;
-  width: 300px;
-  height:43px;
+  width: 500px;
+  height:80px;
   font-family:'Work Sans';
   background-color: #0ebd82;
   padding-top: 18px;
-  font-size: 18px;
+  font-size: 60px;
   text-align: center;
   color:#010165;
   margin-bottom:21px;
@@ -41,7 +41,7 @@ tr{
 
 .instructions-row{
   margin:0 auto;
-  width: 600px;
+  width: 800px;
 }
 
 .instructions-number{
