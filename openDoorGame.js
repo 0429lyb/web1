@@ -98,7 +98,7 @@ function gameOver(status){
 }
 
 
-const pizzaPath = "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcShe24QRo2Cr02LxckqmHo0YX9HLbDH2-GpXg&usqp=CAU";
+const pizzaPath = "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT96j-scMAlPk5sKB1LXc1N87H7N33_TdPEBA&usqp=CAU";
 const veggie1Path= "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQC4sqxC2vkOP0annKn4Rn1p_3BRXZCo6GoQA&usqp=CAU";
 const veggie2Path= "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxz-ZOByTpTALO7eQ2ebL7m2mvJ8kfakeWdQ&usqp=CAU";
 
