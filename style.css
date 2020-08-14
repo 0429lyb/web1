@@ -35,6 +35,9 @@ body {
   text-align: center;
 }
 
+tr{
+  font-size: 30px;
+}
 
 .instructions-row{
   margin:0 auto;
