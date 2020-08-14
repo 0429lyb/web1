@@ -24,6 +24,11 @@ body {
   margin-bottom: 21px;
   
 }
+
+#space{
+  height:100px;
+}
+
 .inst{
   text-align: center;
 }
