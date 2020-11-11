@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+    <title>기획서 레이아웃</title>
+    <style>
+        * {
+            font-family: 'Do Hyeon', sans-serif;
+        }
+
+        .wrap {
+            margin: auto;
+            padding: 50px;
+            width: 600px;
+        }
+
+        .prod_img {
+            display: block;
+            margin: auto;
+            width: 600px;
+        }
+
+        .prod_nm {
+            display: inline;
+        }
+
+        .price {
+            display: inline;
+        }
+
+        .order {
+            text-align: center;
+            width: 200px;
+            border-radius: 5px;
+            padding: 6px;
+        }
+
+        .order2 {
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+    <script>
+        function btnfunc() {
+            alert("주문이 완료되었습니다.");
+        }
+    </script>
+</head>
+<body>
+<div class="wrap">
+    <img class="prod_img"
+         src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQKewJQgffnRJuGRcrBZrBbP-ylxAIXxJxDDg&usqp=CAU"></img>
+    <h1 class="prod_nm">기념일 케이크</h1>
+    <h5 class="price">가격: 40,000원 / 개</h5>
+    <p>각종 기념일을 더욱 특별하게 만들어줄 아름답고 의미있는 케이크를 만들어드립니다</p>
+
+    <h1>주문하기</h1>
+    <div class="input-group mb-2">
+        <div class="input-group-prepend">
+            <div class="input-group-text">주문자 이름</div>
+        </div>
+        <input type="text" class="form-control" id="inlineFormInputGroup">
+    </div>
+
+    <div class="input-group mb-2">
+        <div class="input-group-prepend">
+            <div class="input-group-text">수량</div>
+        </div>
+        <select class="custom-select" id="validationCustom04" required>
+            <option selected disabled value="">--수량을 선택하세요--</option>
+            <option>1</option>
+            <option>2</option>
+        </select>
+    </div>
+
+    <div class="input-group mb-2">
+        <div class="input-group-prepend">
+            <div class="input-group-text">주소</div>
+        </div>
+        <input type="text" class="form-control" id="inlineFormInputGroup">
+    </div>
+    <div class="input-group mb-2">
+        <div class="input-group-prepend">
+            <div class="input-group-text">전화번호</div>
+        </div>
+        <input type="text" class="form-control" id="inlineFormInputGroup">
+    </div>
+
+    <div class="order2">
+        <button onclick="btnfunc()" class="order">주문하기</button>
+    </div>
+</div>
+</body>
+</html>
