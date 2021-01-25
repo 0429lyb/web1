@@ -181,10 +181,10 @@ function onUserShoot(shootType){
     }*/
 
     if(Math.random()<user['Percent'+shootType]){
-        showText('succeeded: '+shootType);
+        showText('vetle succeeded: '+shootType);
         updateUserScore(shootType);
     } else{
-        showText('failed: '+shootType);
+        showText('vetle failed: '+shootType);
     }
 
     game.isComputerTurn=true;
